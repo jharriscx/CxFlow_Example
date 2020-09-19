@@ -1,6 +1,6 @@
 # CxFlow_Example
 
-Download the applicationscan.yml file to your C:\CxFlow directory and change the username and password parameters that say, <CHANGE ME> to be your cxscanner user name and password.
+Download the application-scan.yml file to your C:\CxFlow directory and change the username and password parameters that say, <CHANGE ME> to be your cxscanner user name and password.
 
 Then run CxFlow from the command line as such:
 
