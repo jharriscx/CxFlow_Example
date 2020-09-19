@@ -2,6 +2,7 @@
 
 1. Download the [application-scan.yml](https://github.com/jharriscx/CxFlow_Example/blob/master/application-scan.yml) file to your **C:\CxFlow** directory.
 2. Edit the .yml file and change the username and password parameters that say, **\<CHANGE ME\>** to be your cxscanner username and password.
+3. (Possibly optional) :: Change the base-url parameter in the .yml file to be your http://IPAddress if you desire.
 
 Then run CxFlow from the command line as such:
 
