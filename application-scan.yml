@@ -19,8 +19,9 @@ checkmarx:
   username: <CHANGE ME>
   password: <CHANGE ME>
   client-secret: 014DF517-39D1-4453-B7B3-9930C563627C
-  base-url: http://ec2amaz-3jbtk7r
-  team: /CxServer/SP/Company/Research
+  # Change the base-url to be your http://IPAddress if you desire
+  base-url: http://localhost
+  team: /CxServer
   scan-preset: High and Medium
   url: ${checkmarx.base-url}/cxrestapi
   #WSDL Config
