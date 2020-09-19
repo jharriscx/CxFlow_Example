@@ -4,4 +4,4 @@ Download the applicationscan.yml file to your C:\CxFlow directory and change the
 
 Then run CxFlow from the command line as such:
 
-    java -jarcx-flow-1.6.8.jar --spring.config.location="./application-scan.yml" --scan --f=C:\Users\Administrator\...\JavaVulnerableLab --cx-project=JavaVulnerableLab --app=JavaVulnerableLab --forcescan
+    java -jar cx-flow-1.6.8.jar --spring.config.location="./application-scan.yml" --scan --f=C:\Users\Administrator\...\JavaVulnerableLab --cx-project=JavaVulnerableLab --app=JavaVulnerableLab --forcescan
