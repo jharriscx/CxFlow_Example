@@ -9,3 +9,6 @@ Then run CxFlow from the command line as such:
     cd C:\CxFlow
     
     java -jar cx-flow-1.6.8.jar --spring.config.location="./application-scan.yml" --scan --f=C:\Users\Administrator\...\JavaVulnerableLab --cx-project=JavaVulnerableLab --app=JavaVulnerableLab --forcescan
+
+    java -jar cx-flow-1.6.9.jar --spring.config.location="application-scan.yml" --scan --f="C:\Demo\JavaVulnerableLab" --cx-team="CxServer/SP/Company" --cx-project="jharris_JavaVulnerableLab" --app="jharris_JavaVulnerableLab"
+
