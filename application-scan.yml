@@ -1,10 +1,10 @@
 server:
-  port: 8982
+  port: 80
 logging:
   file: flow.log
   
 cxflow:
-  bug-tracker: NONE
+  bug-tracker: WAIT
   filter-severity:
   filter-category:
   filter-cwe:
