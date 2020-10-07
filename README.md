@@ -12,5 +12,7 @@ Then run CxFlow from the command line as such:
 
     java -jar cx-flow-1.6.9.jar --spring.config.location="application-scan.yml" --scan --f="C:\Demo\JavaVulnerableLab" --cx-team="CxServer/SP/Company" --cx-project="jharris_JavaVulnerableLab" --app="jharris_JavaVulnerableLab"
     
+    java -jar cx-flow-1.6.10.jar --spring.config.location="application-scan.yml" --scan --f="./jharris_JavaVulnerableLab" --cx-project="jharris_JavaVulnerableLab" --app="jharris_JavaVulnerableLab"
+    
     java -jar cx-flow-1.6.10.jar --spring.config.location="application-github.yml" --scan --github --repo-name="JavaVulnerableLab" --repo-url="https://github.com/jharriscx/JavaVulnerableLab.git" --branch="master" --cx-project="jharris_JavaVulnerableLab" --app="jharris_JavaVulnerableLab"
 
