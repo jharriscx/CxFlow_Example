@@ -20,9 +20,9 @@ checkmarx:
   scope: access_control_api sast_rest_api
   username: jharris
   password: Checkmarx_123
-  client-secret: 014DF517-39D1-4453-B7B3-9930C563627C
+  client-secret: <CHANGE ME>
   # Change the base-url to be your http://IPAddress if you desire
-  base-url: http://172.35.0.38
+  base-url: <CHANGE ME>
   team: /CxServer/SP/Company
   scan-preset: High and Medium
   url: ${checkmarx.base-url}/cxrestapi
@@ -34,7 +34,7 @@ checkmarx:
 
 github:
   webhook-token: 12345
-  token: f480a99358e3891938242e5f032fbf7f902b08c5
+  token: <CHANGE ME>
   url: https://github.com
   api-url: https://api.github.com/repos/
   false-positive-label: false-positive
