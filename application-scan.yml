@@ -18,7 +18,7 @@ checkmarx:
   scope: access_control_api sast_rest_api
   username: <CHANGE ME>
   password: <CHANGE ME>
-  client-secret: 014DF517-39D1-4453-B7B3-9930C563627C
+  client-secret: <CHANGE ME>
   # Change the base-url to be your http://IPAddress if you desire
   base-url: http://localhost
   team: /CxServer
