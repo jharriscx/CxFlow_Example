@@ -31,7 +31,7 @@ checkmarx:
   scope: access_control_api sast_rest_api
   username: <CX USERNAME>
   password: <CX PASSWORD>
-  client-secret: 014DF517-39D1-4453-B7B3-9930C563627C
+  client-secret: <CHANGE ME>
   base-url: http://localhost
   multi-tenant: false
   team: /CxServer
